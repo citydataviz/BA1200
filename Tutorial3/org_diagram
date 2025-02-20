@@ -1,0 +1,19 @@
+// AI as a New Organizational Layer
+digraph {
+	rankdir=TB splines=ortho
+	H [label="Human Organizational Layer
+(Managers, Teams, Employees)" fillcolor=lightblue shape=box style=filled]
+	A [label="AI Layer" fillcolor=lightgray shape=box style=filled]
+	V [label="Vertical AI
+(Domain-Specific)" fillcolor=lightgreen shape=ellipse style=filled]
+	W [label="Horizontal AI
+(General-Purpose)" fillcolor=lightyellow shape=ellipse style=filled]
+	O [label="Organizational Outcomes
+(Coordination, Decision Quality, Adaptability)" fillcolor=orange shape=box style=filled]
+	H -> A [label="Collaboration & Integration"]
+	A -> H [label="Feedback & Support"]
+	A -> V [label="Specialized Functions"]
+	A -> W [label="Enterprise Coordination"]
+	H -> O [label=Drives]
+	A -> O [label=Enables]
+}
